@@ -1,0 +1,28 @@
+.switch {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #cccc;
+    cursor: pointer;
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        background: #bbb;
+        border: 1px solid #bbb;
+        
+        &--night {
+            background: #fff;
+            right: auto;
+            left: -1px;
+        }
+    }
+    
+}

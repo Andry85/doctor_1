@@ -1,0 +1,23 @@
+.btn {
+    background: #010000;
+    border: 0;
+    cursor: pointer;
+    height: 65px;
+    line-height: 65px;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.sent {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.sent-secces {
+    color: green;
+    
+}
+.sent-error {
+    color: red;
+}

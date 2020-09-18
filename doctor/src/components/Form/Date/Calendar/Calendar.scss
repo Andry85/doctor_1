@@ -1,0 +1,53 @@
+.calendar-wrap {
+    width: 300px;
+    background: #fff;
+    border: 2px solid #C4C4C4;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    min-height: 250px;
+
+    &.hidden {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            padding: 5px;
+            margin: 5px;
+        }
+        select {
+            padding: 5px;
+
+        }
+    }
+
+    table {
+        width: 100%;
+        tr {
+            td,th {
+                text-align: center;
+                padding: 5px;
+                color: #000;
+            }
+            td {
+                cursor: pointer;
+                &.today {
+                    background: #C4C4C4;
+                    color: #fff;
+                }
+                &.selected {
+                    background: rgb(43, 70, 226);
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}
